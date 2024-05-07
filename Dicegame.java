@@ -19,7 +19,7 @@ public class DiceGame {
         this.random = new Random();
         this.results = new HashMap<>();
     }
-
+    
     // Simulates playing a single game
     public void playGame() {
         List<Integer> dice = IntStream.range(0, numDice)
